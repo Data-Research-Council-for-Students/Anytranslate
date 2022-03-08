@@ -23,6 +23,14 @@ And finally start the program by
 uvicorn main:app --reaload
 ```
 
+## Why use this?
+
+How is this better than [google trans]()?
+- It is asynchronous.
+- Data can be taken in json format from endpoint
+
+
+
 
 
 
