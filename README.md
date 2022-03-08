@@ -27,7 +27,7 @@ uvicorn main:app --reaload
 
 How is this better than [google trans]()?
 - It is asynchronous.
-- Data can be taken in json format from endpoint
+- Data can be fetched in json format from endpoint
 
 
 
