@@ -11,4 +11,4 @@ tests/
 .pytest_cache/
 
 #api
-api/__pycache__
+api/__pycache__/
