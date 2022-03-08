@@ -41,7 +41,6 @@ async def translate_munche(sentence:str,lang:str) -> dict:
             try:
                 translator = google_translator()
                 translated = await translator.translate(sentence,lang_src=str(result_lang),lang_tgt=str(lang))
-                print(translated)
                 final_output = {"Detected language":result_lang,"translated_text":translated}
                 return final_output
             except Exception as e:
