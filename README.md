@@ -20,7 +20,7 @@ poetry install
 
 And finally start the program by 
 ```sh
-uvicorn main:app --reaload
+uvicorn trans_api:app --reaload
 ```
 
 ## Why use this?
@@ -28,6 +28,8 @@ uvicorn main:app --reaload
 How is this better than [google trans]()?
 - It is asynchronous.
 - Data can be fetched in json format from endpoint
+
+
 
 
 
