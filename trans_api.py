@@ -55,7 +55,6 @@ async def translate(text:Text):
     _tobe_translated = (text.dict())['text']
     langugae = (text.dict())['lang']
     final_output = await translate_munche(_tobe_translated,langugae)
-    #final_output.update({"completed_on":time.time()-start})
     return JSONResponse(final_output)
     
 
